@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PlayingCardAnimation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3ex-zx-7OW" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="57" y="99" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="14"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tg3-Vd-BlD" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="175" y="99" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jXC-dL-8Oc" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="287" y="99" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rU2-cO-F4p" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="29" y="401" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oOR-KQ-fdp" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="45" y="249" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fHI-CU-zM6" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="175" y="268" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UnY-2N-4Cc" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="280" y="268" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dgc-ig-TOR" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="268" y="424" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eY4-JA-O0F" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="45" y="596" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yvf-tT-XdC" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="148" y="588" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WGM-S2-xzx" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="280" y="588" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ykF-RQ-jde" customClass="PlayingCardView" customModule="PlayingCardAnimation" customModuleProvider="target">
+                                <rect key="frame" x="148" y="432" width="84" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outletCollection property="cardViews" destination="3ex-zx-7OW" collectionClass="NSMutableArray" id="hHQ-AD-XHs"/>
+                        <outletCollection property="cardViews" destination="oOR-KQ-fdp" collectionClass="NSMutableArray" id="Gec-rq-7Ix"/>
+                        <outletCollection property="cardViews" destination="Tg3-Vd-BlD" collectionClass="NSMutableArray" id="fxm-MN-HKf"/>
+                        <outletCollection property="cardViews" destination="jXC-dL-8Oc" collectionClass="NSMutableArray" id="HmJ-zr-Vli"/>
+                        <outletCollection property="cardViews" destination="UnY-2N-4Cc" collectionClass="NSMutableArray" id="abK-lW-iSK"/>
+                        <outletCollection property="cardViews" destination="fHI-CU-zM6" collectionClass="NSMutableArray" id="brU-oj-Qpa"/>
+                        <outletCollection property="cardViews" destination="rU2-cO-F4p" collectionClass="NSMutableArray" id="36e-4h-ent"/>
+                        <outletCollection property="cardViews" destination="ykF-RQ-jde" collectionClass="NSMutableArray" id="oBN-U8-npM"/>
+                        <outletCollection property="cardViews" destination="dgc-ig-TOR" collectionClass="NSMutableArray" id="28Y-sp-wZh"/>
+                        <outletCollection property="cardViews" destination="eY4-JA-O0F" collectionClass="NSMutableArray" id="1l0-3N-KfW"/>
+                        <outletCollection property="cardViews" destination="yvf-tT-XdC" collectionClass="NSMutableArray" id="PGZ-Qk-Quy"/>
+                        <outletCollection property="cardViews" destination="WGM-S2-xzx" collectionClass="NSMutableArray" id="BQw-K6-GDh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.33333333333334" y="133.25892857142856"/>
+        </scene>
+    </scenes>
+</document>
